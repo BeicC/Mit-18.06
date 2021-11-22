@@ -58,3 +58,7 @@ left nullspace：
 * 方法的使用条件：$A^TA$可逆 or 矩阵A的列相互独立
     上面的两个条件是等价的，证明如下
 > $A^TAx=0$,等式两边同乘以$x^T$,就可以得到要想$A^TAx=0$，就需要$Ax=0$,又因为A的列相互独立，所以只有唯一解x=0；所以矩阵$A^TA$的nullspace只有零向量，而$A^TA$为方阵，所以可逆。
+
+## Lecture17：Orthonomal Bases and Gram-Schmidt
+* 引入了othogonal matrix，以及介绍用它的好处
+* 介绍了通过independent column来求orthogonal column的方法-Gram-Schmidt
